@@ -5,10 +5,10 @@ import os
 # http://kafka.apache.org/documentation.html#quickstart
 
 # Path for spark source folder
-os.environ['SPARK_HOME'] = "/home/mario/programas/spark-1.3.0-bin-hadoop2.4"
+os.environ['SPARK_HOME'] = "/path/to/spark"
 
 # Append pyspark  to Python Path
-sys.path.append("/home/mario/programas/spark-1.3.0-bin-hadoop2.4/python")
+sys.path.append("/path/to/spark/python")
 
 try:
     from pyspark import SparkContext, SparkConf
